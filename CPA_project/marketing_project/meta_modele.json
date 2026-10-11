@@ -1,0 +1,41 @@
+{
+  "modele": "XGBoost",
+  "seuil_optimal": 0.43,
+  "auc_roc": 0.8884,
+  "f1_score": 0.6222,
+  "recall": 0.6364,
+  "feature_names": [
+    "Education",
+    "Marital_Status",
+    "Income",
+    "Kidhome",
+    "Teenhome",
+    "Recency",
+    "MntWines",
+    "NumWebVisitsMonth",
+    "AcceptedCmp3",
+    "AcceptedCmp4",
+    "AcceptedCmp5",
+    "AcceptedCmp1",
+    "AcceptedCmp2",
+    "Complain",
+    "Age",
+    "Anciennete_jours",
+    "Total_enfants",
+    "Total_campagnes_acceptees"
+  ],
+  "ordre_education": {
+    "Basic": 0,
+    "2n Cycle": 1,
+    "Graduation": 2,
+    "Master": 3,
+    "PhD": 4
+  },
+  "mapping_marital": {
+    "Divorced": 0,
+    "Married": 1,
+    "Single": 2,
+    "Widow": 3
+  },
+  "annee_reference": 2014
+}
